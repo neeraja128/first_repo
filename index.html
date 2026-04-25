@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Java Project</title>
-</head>
-<body>
-  <h1>My First Java Project</h1>
-  <p>This is my Java program:</p>
-  <pre>
-    class hello
-    {
+  <head>
+    <title>My First Website</title>
+    <style>
+      /* CSS goes here */
+      body {
+        background-color: lightblue;
+        font-family: Arial;
+        text-align: center;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
 
-    public static void main(String[] args) 
-    {
-        System.out.println("Hello World");
-    }
-  }
-  </pre>
-</body>
+  <body>
+    <!-- HTML goes here -->
+    <h1>Hello, I am Neeraja!</h1>
+    <p>Welcome to my first website</p>
+    <button onclick="sayHello()">Click Me</button>
+
+    <script>
+      // JavaScript goes here
+      function sayHello() {
+        alert("Hello! This is my first website!");
+      }
+    </script>
+
+  </body>
 </html>
